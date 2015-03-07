@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="name"
+        android:title="Editar Nombre"
+        android:summary="Edita nombre de default"
+        android:defaultValue="Name" />
+    />
+    <EditTextPreference
+        android:key="edad"
+        android:title="Editar edad"
+        android:summary="Edita edad de default"
+        android:defaultValue="Edad" />
+    />
+    <ListPreference
+        android:key="genero"
+        android:entries="@array/ConfigGenero"
+        android:entryValues="@array/Genero"
+        android:title="Escoger genero"
+        android:summary="Escoger Genero"
+        android:defaultValue="Gen" />
+    />
+
+</PreferenceScreen>
